@@ -28,7 +28,7 @@ setup(
     package_dir={"": "src"},
     packages=["harmony"],
     install_requires=[
-        "numpy>=1.14.2",
+        "numpy>=1.14.2,<1.20.1",
         "pandas>=0.22.0",
         "scipy>=1.0.1",
         "scikit-learn",
